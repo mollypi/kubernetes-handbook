@@ -1,5 +1,7 @@
 # Setup Kubernetes Cluster from Scratch
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/8ad5b4a4-5c3a-4698-94da-d8228e9c285f.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kubernetes-handbook?orgId=561911742905)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/5aa28433-318d-4b27-a8bc-6b3b3243de6b.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kubernetes-handbook?orgId=561911742905)  [![IaC](https://app.soluble.cloud/api/v1/public/badges/4ba8084e-d207-4e56-9190-20e51d65bae6.svg?orgId=561911742905)](https://app.soluble.cloud/repos/details/github.com/mollypi/kubernetes-handbook?orgId=561911742905)  
+
 This is a handbook to setup a Kubernetes cluster from scratch and is for someone who is familiar with Kubernetes already. If you are new to Kubernetes, I highly recommand to get yourself familar with Kubernetes first and come back to this handbook. 
 
 If all you need is to have a proper setup cluster, then Kubeadm is an easy to use tool to setup a cluster. If you want to have a deep understanding of all different components of Kubernetes, then setting up a cluster from scratch is definitely a good way to learn.
