@@ -1,0 +1,76 @@
+repo_name: mollypi/kubernetes-handbook
+report_id: 9b8dff3dac5f6b7a0270f051dd1778c4
+repo_type: Public
+timestamp: '2023-11-15T05:29:36+00:00'
+requested_by: shawnsong
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: examples/hpa/deploy/Dockerfile
+  last_updated_by: Shawn Song
+  last_updated_on: 2018-12-19 11:55:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source: examples/hpa/deploy/Dockerfile
+  last_updated_by: Shawn Song
+  last_updated_on: 2018-12-19 11:55:45.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: addons/prometheus/prometheus.yml
+  last_updated_by: Shawn Song
+  last_updated_on: 2018-11-07 10:47:31.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: examples/config-maps/application.properties
+  last_updated_by: Shawn Song
+  last_updated_on: 2018-11-11 10:50:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
