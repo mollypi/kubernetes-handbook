@@ -1,7 +1,8 @@
 repo_name: mollypi/kubernetes-handbook
 report_id: 9b8dff3dac5f6b7a0270f051dd1778c4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T05:29:36+00:00'
+timestamp: '2024-01-05T08:41:36+00:00'
 requested_by: shawnsong
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook/blob/master/examples/hpa/deploy/Dockerfile
   detection_source: examples/hpa/deploy/Dockerfile
   last_updated_by: Shawn Song
   last_updated_on: 2018-12-19 11:55:45.000000000 Z
@@ -27,6 +29,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook
   detection_source: Repo Metadata
 - name: PhpSpec
   description: A  toolset for behavior driven development
@@ -36,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook/blob/master/examples/hpa/deploy/Dockerfile
   detection_source: examples/hpa/deploy/Dockerfile
   last_updated_by: Shawn Song
   last_updated_on: 2018-12-19 11:55:45.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Monitoring
   sub_category: Monitoring Tools
   image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook/blob/master/addons/prometheus/prometheus.yml
   detection_source: addons/prometheus/prometheus.yml
   last_updated_by: Shawn Song
   last_updated_on: 2018-11-07 10:47:31.000000000 Z
@@ -61,6 +66,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook/blob/master/examples/config-maps/application.properties
   detection_source: examples/config-maps/application.properties
   last_updated_by: Shawn Song
   last_updated_on: 2018-11-11 10:50:18.000000000 Z
@@ -73,4 +79,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mollypi/kubernetes-handbook
   detection_source: Repo Metadata
